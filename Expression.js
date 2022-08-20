@@ -34,3 +34,11 @@ printMessage("Mitch");
 printMessage("August");
 
 getMessage("Laetitia");
+
+const messageForAli = getMessage("Ali");
+
+const curiousMessage = getMessage(42);
+
+console.log(messageForAli);
+console.log(curiousMessage);
+
