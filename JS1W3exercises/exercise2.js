@@ -21,6 +21,9 @@ checkIsTrue(null);
 console.log(NaN);
 checkIsTrue(NaN);
 
+console.log("[]");
+checkIsTrue([]);
+
 //All values are truthy unless they are defined as falsy.
 //That is, all values are truthy except false, 0, -0, 0n, "", null, undefined, and NaN.
 
