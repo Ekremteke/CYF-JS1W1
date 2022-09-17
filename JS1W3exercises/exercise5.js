@@ -7,6 +7,12 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+
+for (const item of daysOfWeek) {
+  // other way of the for loop
+  console.log(item);
+}
+
 function getDay(index) {
   if (index < 5) {
     return `${daysOfWeek[index]} is a business day`;
