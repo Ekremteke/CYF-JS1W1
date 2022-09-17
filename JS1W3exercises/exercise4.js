@@ -15,3 +15,4 @@ function secondMatchesAmy(array) {
     return "Second element not matched";
   }
 }
+// it need to complete . It has not be completed yet.
