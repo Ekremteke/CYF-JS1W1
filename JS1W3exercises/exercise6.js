@@ -4,7 +4,7 @@ function getIndex(array, item) {
       return i;
     }
   }
-  return number;
+  //   return array.indexOf(item); it also works basically.
 }
 const arr = [1, 3, 5, 7, 9, 100];
 console.log(getIndex(arr, 5)); // 2
